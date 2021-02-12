@@ -7,6 +7,11 @@
 	font-variant: small-caps;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 [epub|type~="z3998:poem"]{
 	margin-top: 1em;
 }

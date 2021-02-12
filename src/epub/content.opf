@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/eleanor-h-porter/pollyanna-grows-up</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-02-12T22:22:27Z</dc:date>
+		<meta property="dcterms:modified">2021-02-12T22:22:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -51,17 +51,20 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Childrens</meta>
-		<dc:description id="description">The second book about Pollyanna Whittier follows the events of her life in Boston at age 13 and then in rural Vermont at the age of 20.</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Glad Books</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
+		<dc:description id="description">Pollyanna recovers from an automobile accident with the help of a nearby dowager, before leaving the country to later return to rural Vermont.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In the Pollyanna “Glad” books, we follow the title character as she “grows up” through a story comprised of two connected parts. The first part takes place when she is age 13, in Boston, having just been rehabilitated from severe injuries sustained in an automobile accident. As she leaves the hospital, she is sent to stay with a nearby dowager, who has long withdrawn into grief, pining for her lost nephew. Pollyanna is to be her “cure.” After leaving Boston, Pollyanna leaves the country with her Aunt Polly and doesn’t return to Vermont until she is 20 years old.&lt;/p&gt;
-			&lt;p&gt;While in Boston, Pollyanna observed her host’s isolation and depression, which sat in stark contrast with the opulence of her home and her material wealth. Meanwhile, naïve, relentlessly positive, literal-minded Pollyanna, often oblivious to the structure of society around her, slowly came to understand the dire, grinding poverty, isolation, and alienation that turn-of-the-century Boston was also home to. Human connection is a central theme of the book and Pollyanna does also begin to engage with broader cultural and moral questions of her society before departing the country.&lt;/p&gt;
-			&lt;p&gt;In the second half of the book, Pollyanna acts as host to the friends she made in Boston. As such, she reconnects with them and connects them with her friends and family in Vermont. As a part of growing up, Pollyanna must now address questions of how these relationships might change as her age and social status have changed. She must reconcile the sense of obligation she feels with her desires, and with the wants and needs of those around her. The story concludes with a fairy-tale ending. Old relationships are expanded, and new relationships are formed (or revealed) with each, in the end, more connected to all.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;Pollyanna Grows Up&lt;/i&gt;, we follow the titular character as she “grows up” through a story comprised of two connected parts. The first part takes place in Boston when she is age 13, having just been rehabilitated from severe injuries sustained in an automobile accident. As she leaves the hospital, she is sent to stay with a nearby dowager, who has long withdrawn into grief, pining for her lost nephew. Pollyanna is to be her “cure.” After leaving Boston, Pollyanna leaves the country with her Aunt Polly and doesn’t return to Vermont until she is 20 years old.&lt;/p&gt;
+			&lt;p&gt;While in Boston, Pollyanna observes her host’s isolation and depression, which sits in stark contrast with the opulence of her home and her material wealth. Meanwhile, naive, relentlessly positive, literal-minded Pollyanna, often oblivious to the structure of society around her, slowly comes to understand the dire, grinding poverty, isolation, and alienation that turn-of-the-century Boston was also home to. Human connection is a central theme of the book and Pollyanna begins to engage with broader cultural and moral questions of her society before departing the country.&lt;/p&gt;
+			&lt;p&gt;In the second half of the book, Pollyanna acts as host to the friends she made in Boston. As such, she reconnects with them and puts them in touch with her friends and family in Vermont. As a part of growing up, Pollyanna must now address questions of how these relationships might change as her age and social status change. She must reconcile the sense of obligation she feels with her desires, and with the wants and needs of those around her. Old relationships are expanded, and new relationships are formed (or revealed) with each, in the end, more connected to all.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6100</dc:source>
 		<dc:source>https://archive.org/details/pollyannagrowsup00port_0</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">76977</meta>
+		<meta property="se:reading-ease.flesch">83.36</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pollyanna_Grows_Up</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/eleanor-h-porter_pollyanna-grows-up</meta>
 		<dc:creator id="author">Eleanor H. Porter</dc:creator>
@@ -94,6 +97,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

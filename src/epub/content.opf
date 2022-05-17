@@ -76,13 +76,13 @@
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055478</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Paul Hollander</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Hollander,Paul</meta>
+		<meta property="file-as" refines="#transcriber-1">Hollander, Paul</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Sutherland, Juliet</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Charles Franks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Franks,Charles</meta>
+		<meta property="file-as" refines="#transcriber-3">Franks, Charles</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
